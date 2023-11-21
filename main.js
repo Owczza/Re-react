@@ -1,16 +1,35 @@
-function Element() {
-  return <h1> Hello, everyone! </h1>;
-}
 
-const Navbar = (
-  <nav>
-    <h1>Paw Pals</h1>
+
+function Navbar() {
+  return <nav>
     <ul>
       <li>Pricing</li>
       <li>About</li>
       <li>Contact</li>
     </ul>
   </nav>
-)
+}
 
-ReactDOM.render(Navbar, document.getElementById("root"))
+function Title () {
+  return <h1>Paw Pals</h1>
+}
+
+function Paragraph  () {
+  return <p>This is a paragraph</p>
+}
+
+function Link () {
+  return <a href="main.html">This is a link</a>
+}
+
+function Element() {
+  return <div>
+    <Title />
+    <Navbar />
+    <Paragraph />
+    <Link />
+  </div>
+}
+
+
+ReactDOM.render(<Element />, document.getElementById("root"))
