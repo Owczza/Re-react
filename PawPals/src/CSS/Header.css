@@ -1,25 +1,28 @@
-.Nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #DEB1BE;
 }
 
-.Header {
+.header {
   display: flex;
   align-items: center;
+  font-size: 2rem;
 }
 
-.Logo {
-  width: 40px;
-  height: 40px;
+.logo {
+  width: 3rem;
+  height: 3rem;
 }
 
-#Title {
+#title {
   margin: 0;
   padding-left: 10px;
+  font-family: "Lobster", sans-serif;
 }
 
-.NavList {
+.navlist {
   display: flex;
   list-style: none;
   padding: 0;
@@ -27,4 +30,16 @@
   width: 50%;
   margin: 0;
   align-items: center;
+  font-weight: 500;
+  font-size: 1.10rem;
+}
+
+.navlist > li {
+  transition: all 0.5s ease;
+  border:none;
+}
+
+.navlist > li:hover {
+  color: #906E9E;
+  border-bottom: 1px solid #906E9E;
 }

@@ -2,6 +2,9 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 
