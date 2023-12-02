@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 function Page() {
   return (
@@ -8,6 +9,7 @@ function Page() {
         <li>Thing 1</li>
         <li>Thing 2</li>
       </ol>
+      <Card />
     </div>
   );
 }
