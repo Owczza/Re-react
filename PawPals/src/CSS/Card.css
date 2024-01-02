@@ -4,14 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
     border-radius: 10px; 
     margin: 10px;
-}
 
-.card {
     transition: all 0.5s ease;
     border:none;
-  }
+}
 
 .card:hover {
     background-color: #deb1be61;
@@ -32,6 +31,10 @@
     font-family: Lobster, sans-serif;
     font-size: 1.3rem;
     margin-top: 0.7em;
+}
+
+.card > span {
+    font-size: 0.9em;
 }
 
 .card > button {
